@@ -1,0 +1,55 @@
+/* body{
+    background-image: url(image/stone\ pic);
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin-left: 4em;
+    
+    
+}
+#mahi{
+   
+    background-color: #fff;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 1em;
+}
+.m{
+    margin: 1em;
+   
+} */
+
+
+
+
+
+/* 
+body{
+    background-image: url(image/wallpaper);
+    background-size: cover; 
+  }  */
+  .main{
+    text-align: center;
+    display: inline;
+    margin: 100px;
+   
+  
+    }
+  form{
+    
+    background-color: gray;
+    opacity: .8;
+    
+  }
+  .label{
+    color: rgb(4, 1, 24);
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+

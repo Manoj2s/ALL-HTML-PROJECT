@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <style>
+        body{
+            background: url(image/stone\ pic);
+        }
+        .main{
+           background-color: rgba(39, 85, 116, .8);
+            height: 100vh;
+            width: 100vw;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+        }
+        .mainContainer{
+            height: 5vh;
+            width: 50vw;
+        }
+        .mainContainer td{
+            height: 50%;
+            width: 50%;
+        }
+        .firstTable{
+            text-align: end;
+        }
+    </style>
+  </head>
+  <body>
+    <form class="main">
+        <table class="mainContainer" >
+            <tr>
+                <th colspan="2"><h3>Survey form</h3></th>
+            </tr>
+           <tr>
+            <th colspan="2">Let us know how we can improved freecodecamp</th>
+           </tr>
+            <tr>
+                <td class="firstTable">Name:</td>
+                <td> <input type="text" placeholder="enter your name"></td>
+            </tr>
+            <tr>
+                <td class="firstTable">Email:</td>
+                <td><input type="email" placeholder="enter your email"></td>
+            </tr>
+            <form>
+                <td class="firstTable">Age:</td>
+                <td> <input type="number" placeholder="Age"></td>
+            </tr>
+            <br>
+            <tr>
+                <td class="firstTable"> Which option best describe your best role?</td>
+                <td> <select name="role" id="">
+                     <option value="Student">Student</option>
+                     <option value="unemployee">unemployeet</option>
+                      <option value="Selfemployee">Selfemployeet</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td class="firstTable">How likely is that you would recommend freecodecamp to a friend?</td>
+                <td> <input type="radio" name="button" id="Definitely" value="Definitely">
+                    <label for="Definitely">Definitely</label></input>
+            </tr>
+            <tr>
+                <td></td>
+                <td>   <input type="radio" name="button"  id="Maybe" value="Maybe"> 
+                    <label for="Maybe" >Maybe</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="radio" name="button" id="Not sure" value="Not sure"> 
+                    <label for="Not sure" >Not sure</label></td>
+            </tr>
+            <tr>
+                <td class="firstTable">What you like most in FCC:</td>
+                <td> <select>
+                    <option value="select an option">select an option</option>
+                    <option value="Student">Student</option>
+                    <option value="Worker">Worker</option>
+                    <option value="Self Employee">Self Employee</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="firstTable" > Things that should be improved in future (Check all that apply):</td>
+                <td> <input type="checkbox"> Data Visualization </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"> Back-end project</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="checkbox"> Front-end project</td>
+            </tr>
+            <tr>
+                <td class="firstTable" ><button type="submit">Submit</button></td>
+                <td> <button type="reset"> Reset</button></td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
